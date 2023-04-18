@@ -1,19 +1,23 @@
+/* Reset styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Set default font */
 body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Header styles */
 header {
     background-color: #125784;
     color: #fff;
     padding: 1em;
 }
 
+/* Navigation styles */
 nav {
     display: flex;
     flex-direction: row;
@@ -56,6 +60,7 @@ nav li {
     color: #000;
 }
 
+/* Search container styles */
 .search-container {
     display: flex;
     justify-content: center;
@@ -69,6 +74,7 @@ nav li {
     margin-right: 10px;
 }
 
+/* Main image section styles */
 .img1 {
     background-image: url("./resources/img1.jpg");
     background-position: center;
@@ -102,6 +108,7 @@ nav li {
     font-size: 3em;
 }
 
+/* Text image section styles */
 .text-image-section {
     background-color:  #f57f17;
     display: flex;
@@ -133,6 +140,7 @@ nav li {
     font-size: 1.2em;
 }
 
+/* Image grid section styles */
 .image-grid {
     display: flex;
     justify-content: stretch;
@@ -150,6 +158,7 @@ nav li {
     width: 100%;
 }
 
+/* Form section styles */
 .form-section {
     background-color: #5e35b1;
     padding: 20px;
@@ -260,4 +269,3 @@ footer {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
 }
-
