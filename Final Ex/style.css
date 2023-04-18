@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -215,11 +215,49 @@ footer {
 }
 
 .footer-logo img {
-    max-width: 80px;
+    max-width: 100px;
 }
 
 .footer-content h3 {
     margin: 0;
     margin-bottom: 10px;
+}
+
+
+
+/* Responsive styles for screens smaller than 768px */
+@media (max-width: 767px) {
+    .header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header .search-bar {
+        margin-top: 10px;
+    }
+
+    .form-section {
+        padding: 20px;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+/* Responsive styles for screens smaller than 450px */
+@media (max-width: 450px) {
+    .text-container h2 {
+        font-size: 24px;
+    }
+
+    .text-container p {
+        font-size: 14px;
+    }
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
 }
 
